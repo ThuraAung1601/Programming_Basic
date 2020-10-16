@@ -1,0 +1,51 @@
+var 
+
+data type
+- int 
+- string 
+- float 
+- boolean - True or False 
+
+"Hello"
+3.142
+
+type(var_a)
+
+1 - start with numbers e.g 1Var X var1
+2 - keywords sum print
+3 - special char
+$#@!%^&*=-+/?
+4 - space
+
+first_student
+firstStudent
+
+- syntax - error
+- semantic - bug
+
+conditions 
+
+if condition1:
+    solution1
+else:
+    anothersolution
+
+if condition1:
+    solution1
+elif condition2:
+    solution2
+elif condition3:
+    solution3
+else:
+    anothersolution
+
+Nested condition 
+if condition1:
+    if Sub-condition:
+        sub-solution1
+    else:
+        sub-solution2
+elif condition2:
+    solution2
+else:
+    anothersolution
