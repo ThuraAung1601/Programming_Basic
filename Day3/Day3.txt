@@ -1,0 +1,10 @@
+while condition:
+    body of the loop
+out of the loop
+
+- comment
+    # single line comment
+    """
+    multilline
+    comment
+    """ 
