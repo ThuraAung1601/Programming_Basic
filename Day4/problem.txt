@@ -1,0 +1,30 @@
+people = True
+count = 0
+while people:
+    ask "WIll u join us tonight?"
+    if "Y":
+        count++
+    else:
+        continue
+    ask "Next ? "
+    if "Y":
+        people = True
+    else:
+        people = False
+
+for i in range(count):
+    ask Age
+    print(ask_age(Age))
+    
+def ask_age(Age):
+    if Age >= 18:
+        return "Welcome"
+    elif Age >= 16:
+        print("Do ur parents know ? :")
+        if "Y":
+            return "Welcome"
+        else:
+            return "Then go for discussion"
+    else:
+        return "Not for kids"
+
