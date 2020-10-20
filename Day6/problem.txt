@@ -1,0 +1,50 @@
+people = True
+count = 0
+
+people_name = []
+people_ph = []
+people_age = []
+
+while people:
+    ask "WIll u join us tonight?"
+    read ans
+    if "Y":
+        count++ 
+        ask "What's ur name"
+        read name
+        people_name.append(name)
+
+        ask "What's ur no"
+        read no
+        people_ph.append(no)
+
+    else:
+        pass
+    ask "Next ? "
+    if "Y":
+        people = True
+    else:
+        people = False
+
+def ask_age(Age):
+    if Age >= 18:
+        people_age.append(Age)
+        return "Welcome"
+    elif Age >= 16:
+        print("Do ur parents know ? :")
+        if "Y":
+            people_age.append(Age)
+            return "Welcome"
+        else:
+            return "Then go for discussion"
+    else:
+        return "Not for kids"
+
+
+for i in range(count):
+    ask Age
+    print(ask_age(Age))
+    
+info = zip(ph,ages)
+people_info = dict(zip(names,info))
+people_info
