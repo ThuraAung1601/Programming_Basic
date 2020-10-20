@@ -1,7 +1,3 @@
-'''
-Haine Min Thu
-Modified - Thura Aung
-'''
 people = True
 count = 0
 while people:
@@ -9,7 +5,7 @@ while people:
         if ans == "Y":
             count += 1
         else: 
-            continue
+            pass
         res = input("Next One ? ")
         if res == "Y":
             people = True
@@ -17,10 +13,6 @@ while people:
             people = False
 print(count," people are interested in coming our party !! ")
 
-for i in range(count):
-    a =  eval(input("How old are you? : "))
-    ask_age(a)
-    
 def ask_age(a):
     if a >= 18:
         print("Welcome to the party!")
@@ -34,3 +26,9 @@ def ask_age(a):
         print("Sorry,no kid allowed!")
 
 
+
+
+for i in range(count):
+    a =  eval(input("How old are you? : "))
+    ask_age(a)
+    
