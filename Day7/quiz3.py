@@ -1,4 +1,7 @@
-"Bug Fixed"
+'''
+Bugs Fixed
+Author - Cherry Win
+'''
 people = True
 count = 0
 party_people = []
