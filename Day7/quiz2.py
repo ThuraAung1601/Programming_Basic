@@ -1,5 +1,6 @@
 '''
 quiz2.py
+Bugs alert !!!
 Author : Thura Aung
 '''
 
