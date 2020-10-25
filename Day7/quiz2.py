@@ -46,7 +46,7 @@ def ask_age(a):
         return False
 
 for i in range(count):
-    print("Hello {}".format(party_people[i]))
+    print("Hello")
     a = eval(input("How old are you ?:"))
     if ask_age(a) == True:
         print("Welcome to the party")
